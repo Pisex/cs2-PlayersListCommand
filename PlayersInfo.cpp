@@ -192,7 +192,7 @@ const char *PlayersInfo::GetLicense()
 
 const char *PlayersInfo::GetVersion()
 {
-    return "1.0";
+    return "1.0.1";
 }
 
 const char *PlayersInfo::GetDate()
