@@ -116,7 +116,7 @@ CON_COMMAND_F(mm_getinfo, "", FCVAR_GAMEDLL)
 {
     json jdata = GetServerInfo();
     std::string dump = jdata.dump();
-    META_CONPRINT("%s\n", dump.c_str());
+    META_CONPRINTF("%s\n", dump.c_str());
 }
 
 bool PlayersInfo::Load(PluginId id, ISmmAPI *ismm, char *error, size_t maxlen, bool late)
